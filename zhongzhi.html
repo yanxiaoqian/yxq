@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>中智信元</title>
+    <style>
+    	*{
+    		padding: 0;
+    		margin: 0;
+    	}
+    	ul,li,ol{
+    		list-style: none;
+    	}
+    	a{
+    		text-decoration: none; 
+    	}
+    	.header{
+    		height: 173px;
+    		background-color: #eeeeef;
+    	} 
+    	.logo{
+    		padding-top: 30px;
+    		text-align: center;
+    		height: 95px;
+    	}
+    	.nav{
+    		width: 670px;
+    		height: 45px;
+    		background-color: #f2f2f3;
+    		margin: 0 auto;
+    		border-radius: 23px;
+    	}
+    	.nav li{
+    		float: left;
+    		font-size: 14px;
+    		height: 45px;
+    		padding: 0 30px;
+    		line-height: 45px;
+    		background: url('切图/很短的竖线.png') no-repeat right center;
+    	}
+    	.x{
+    		display: block;
+    		height: 42px;
+            border-bottom: 3px solid #1e50ae;
+    	}
+    	.nav li:last-child{
+    		background: none;
+    	}
+    	.banner{
+    		width: 1560px;
+    		height: 410px;
+    		background: url('切图/一堆人.png') no-repeat center;
+    		margin: 0 auto;
+    	}
+    	.serve{
+    		width: 1200px;
+    		height: 800px;
+    		margin: 0 auto;
+    	}
+    	.serve li{
+    		float: left;
+    	}
+    	.ti{
+    		height: 115px;
+    		text-align: center;
+    	}
+    	.ti h3{
+    		margin-top: 60px;
+    		font-size: 35px;
+    		font-weight: normal;
+    	}
+    	.ti p{
+    		margin-top: 10px;
+    		font-size: 28px;
+    	}
+    	.shang{
+    		width: 300px;
+    		height: 420px;
+    	}
+    	.shang li{
+    		margin-top: 16px;
+    		margin-left: 115px;
+    		float: left;
+    		font-size: 15px;
+    		color: #909090;
+    	}
+    	.xia{
+    		width: 300px;
+    		height: 420px;
+    	}
+    	.xia li: {
+    		margin-top: 16px;
+    		margin-left: 115px;
+    		float: left;
+    		font-size: 15px;
+    		color: #909090;
+    	}
+    	.c{
+    		text-align: center;
+    		font-size: 15px;
+    		margin-top: 20px;
+    	}
+    	.c p{
+    		margin-top: 20px;
+    	}
+    	.solution{
+    		height: 880px;
+    		width: 100%;
+    		background: url('切图/背景第三部分.png') no-repeat center center;
+    	}
+    	.three{
+    		height: 880px;
+    		width: 1200px;
+    		margin: 0 auto;
+    		text-align: center;
+    		color: #fff;
+    	}
+    	.three li{
+    		float: left;
+    	}
+    	.disan{
+    		margin-top: 75px;
+    		height: 385px;
+    		width: 300px;
+    	}
+    	.three h3{
+    		margin-top: 0px;
+    		font-size: 35px;
+    		text-align: center;
+    	}
+    	.three p{
+    		font-size: 28px;
+    	}
+    	.three button{
+    		font-size: 20px;
+    		color: #fff;
+    		width: 230px;
+	        height: 50px;
+	        background: none;
+	        border: 2px solid #fff;
+	        border-radius: 25px;
+	        margin-bottom: 63px;
+	    }
+	    .zixun{
+	        height: 905px;
+	        width: 100%;
+	       text-align: center;
+	       margin: 0 auto;
+        }
+        .xin{
+	        height: 37px;
+        }
+        .y{
+	        height: 80px;
+        }
+        .y h3{
+	        line-height: 80px;
+	        font-size: 35px;
+	        font-weight: normal;
+        }
+        .yy{
+	        font-size: 28px;
+        }
+        .body{
+	        width: 1200px;
+	        height: 770px;
+	        margin:  0 auto;
+        }
+        .body li{
+	        float: left:;
+        }
+        .body li{
+	        float: left;
+        }
+        .xiaobiaoti{
+	        width: 600px;
+	        height: 380px;
+        }
+        .xiaobiaoti img{
+	        margin-right: 35px;
+	        margin-top: 25px;
+        }
+        .hua{
+	        width: 600px;
+	        height: 380px;
+	        margin-top: 50px;
+        }
+        .hua1{
+	        margin-right: 419px;
+	        float: left;
+	        line-height: 55px;
+        }
+        .hua2{
+	        margin-right: 264px;
+	        float: left;
+	        margin-bottom: 25px;
+        }
+        .hua3{
+	        margin-right: 72px;
+	        float: left;
+        }
+        .hua4{
+	        margin-right: 275px;
+	        margin-bottom: 30px;
+	        float: left;
+        }
+        .hua h3{
+	        clear: both;
+	        font-size: 22px;
+	        color: #333333;
+        }
+        .hua h5{
+	        font-weight: normal;
+	        font-size: 15px;
+	        color: #333333;
+        }
+        .hua p{
+	        font-size: 14px;
+	        line-height: 34px;
+	        color: #9e9e9e;
+        }
+        .hua button{
+	        font-size: 16px;
+	        color: #1141a3;
+	        width: 139px;
+	        height: 40px;
+	        background: none;
+	        border: 1px solid #1141a3;
+	        border-radius: 20px;
+	        margin-bottom: 63px;
+        }
+        .wenti1{
+	        width: 532px;
+	        height: 284px;
+	        margin: 0 auto;
+	        margin-left: 70px;
+        }
+        .wenti2{
+	        width: 532px;
+	        height: 284px;
+	        margin: 0 auto;
+        }
+        .wenti1 li{
+	        float: left;
+        }
+        .wenti1 p{
+	        font-size: 14px;
+	        color: #797979;
+        }
+        .wenti1 img{
+	        margin-bottom: 6px;
+        }
+        .wenti2 li{
+	        float: left;
+        }
+        .wenti2 img{
+	        margin-bottom: 6px;
+        }
+        .wenti2 p{
+	        font-size: 14px;
+	        color: #797979;
+        }
+        .rz{
+        	width: 100%;
+        	height: 102px;
+        	background: url('切图/认证.png')no-repeat center center;
+        }
+        .rz2{
+        	margin: 0 auto;
+        	width: 1200px;
+        	height: 102px;
+        }
+        .rz li{
+        	float: left;
+        }
+        .rz1{
+        	width: 300px;
+        	height: 102px;
+        }
+        .rz1 img{
+        	margin-top: 29px;
+        	margin-left: 54px;
+        	float: left;
+        }
+        .rz1 li{
+        	margin-bottom: 8px;
+        	margin-left: 23px;
+        	float: left;
+        }
+        .rzl1{
+        	margin-top: 26px;
+        	font-size: 19px;
+        }
+        .rzl2{
+        	font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="切图/中智信元.png" alt="">
+		</div>
+		<ul class="nav">
+			<li>
+				<a href="" class="x">首页</a>
+			</li>
+			<li>
+				<a href="">关于我们</a>
+			</li>
+			<li>
+				<a href="">中智服务</a>
+			</li>
+			<li>
+				<a href="">解决方案</a>
+			</li>
+			<li>
+				<a href="">最新资讯</a>
+			</li>
+			<li class="last">
+				<a href="">联系我们</a>
+			</li>
+		</ul>
+	</div>
+	<div class="banner"></div>
+	<div class="serve">
+		<div class="ti">
+			<h3>服务项目</h3>
+			<p>SERVICE ITEMS</p>
+		</div>
+		<ul>
+			<li>
+				<div class="shang">
+					<div class="c">
+						<img src="切图/手提包.png">
+						<p>工商代理</p>
+					</div>
+					<ul>
+						<li><img alt="" src="切图/点.png">公司注册</li>
+						<li><img alt="" src="切图/点.png">公司注册地址</li>
+					    <li><img alt="" src="切图/点.png">分公司注册</li>
+					    <li><img alt="" src="切图/点.png">外资注册</li>
+					    <li><img alt="" src="切图/点.png">股权变更</li>
+					    <li><img alt="" src="切图/点.png">公司注销</li>
+				    </ul>
+			    </div>
+		    </li>
+		    <li>
+			    <div class="shang">
+				    <div class="c">
+					    <img src="切图/坐标线.png">
+					    <p>财务代理</p>
+				    </div>
+				    <ul>
+					    <li><img alt="" src="切图/点.png">代理记账</li>
+					    <li><img alt="" src="切图/点.png">税务筹划</li>
+					    <li><img alt="" src="切图/点.png">审计服务</li>
+				    </ul>
+			    </div>
+		    </li>
+		    <li>
+			    <div class="shang">
+				    <div class="c">
+					    <img src="切图/奖牌.png">
+					    <p>资质服务</p>
+				    </div>
+				    <ul>
+					    <li><img alt="" src="切图/点.png">各类许可证</li>
+					    <li><img alt="" src="切图/点.png">资质审批</li>
+					    <li><img alt="" src="切图/点.png">高新企业</li>
+					    <li><img alt="" src="切图/点.png">商标专利</li>
+				    </ul>
+			    </div>
+		    </li>
+		    <li>
+			    <div class="shang">
+				    <div class="c">
+					    <img src="切图/奖杯.png">
+					    <p>特色服务</p>
+				    </div>
+				    <ul>
+					    <li><img alt="" src="切图/点.png">企业融资</li>
+				    </ul>
+			    </div>
+		    </li>
+		</ul>
+		<ul>
+			<li>
+				<div class="xia">
+					<div class="c">
+						<img src="切图/伞.png">
+						<p>公积金社保代理</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="xia">
+					<div class="c">
+						<img src="切图/门.png">
+						<p>办公室租赁</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="xia">
+					<div class="c">
+						<img src="切图/双箭头.png">
+						<p>营业执照转让</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="xia">
+					<div class="c">
+						<img src="切图/天平.png">
+						<p>法律服务</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="content solution">
+		<div class="three">
+				<h3>解决方案</h3>
+				<p>SOLUTION</p>
+			<ul>
+				<li>
+					<div class="disan"><img src="切图/三部分1.png" alt=""></div>
+				</li>
+				<li>
+					<div class="disan"><img src="切图/三部分2.png" alt=""></div>
+				</li>
+				<li>
+					<div class="disan"><img src="切图/三部分3.png" alt=""></div>
+				</li>
+				<li>
+					<div class="disan"><img src="切图/三部分4.png" alt=""></div>
+				</li>
+			</ul>
+			<button>了解更多>></button>
+		</div>
+	</div>
+	<div class="zixun">
+		<div class="xin"></div>
+		<div class="y">
+			<h3>最新资讯</h3>
+		</div>
+		<p class="yy">LAEST INFORMATION</p>
+		<div class="body">
+			<ul>
+				<li>
+					<div class="xiaobiaoti">
+						<img src="切图/四部分1.png" alt="">
+					</div>
+				</li>
+				<li>
+					<div class="hua">
+						<ul>
+							<li class="hua1"><h4>交易明智＆方便</h4></li>
+				            <li class="hua2"><h5>TRANSACTION WISE＆CONVENIENT</h5></li>
+				            <li class="hua3"><p>要适应快速发展的差价合约市场，客户需要一个能让他们不用经纪商的介入就能分</p></li>
+				            <li class="hua3"><p>析实时报价、进行实时交易以及应用投资策略的平台。他们需要一个简单便捷的界</p></li>
+				            <li class="hua4"><p>面来管理他们的账户，并能轻松查看图标和报告。</p></li>
+				            <li><button>了解详情</button></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<ul>
+			    <li>
+			    <div class="wenti1">
+			        <ul>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+			        </ul>
+			    </div>
+			    </li>
+			    <li>
+			        <div class="wenti2">
+			        <ul>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+				        <li><img src="切图/线.png"></li>
+				        <li><p>为什么企业上市之路更加艰难？前期工作有哪些问题，不少企业卡在财务问题上...</p></li>
+			        </ul>
+			        </div>
+			    </li>
+		    </ul>
+		</div>
+	</div>
+	<div class="rz">
+		<div class="rz2">
+		<ul>
+			<li>
+				<div class="rz1">
+					<img src="切图/五1.png">
+					<ul>
+						<li><p class="rzl1">资质认证</p></li>
+						<li><p class="rzl2">服务商100%实名认证</p></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="rz1">
+					<img src="切图/五2.png">
+					<ul>
+						<li><p class="rzl1">支付安全</p></li>
+						<li><p class="rzl2">明码标价支付及信息安全</p><p></p></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="rz1">
+					<img src="切图/五3.png">
+					<ul>
+						<li><p class="rzl1">保险赔付</p></li>
+						<li><p class="rzl2">为您提供担保赔付</p></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+			<div class="rz1">
+			<img src="切图/五4.png">
+			<ul>
+				<li><p class="rzl1">售后无忧</p></li>
+				<li><p class="rzl2">服务出问题经理全程跟进</p></li>
+			</ul>
+			</div>
+			</li>
+		</ul>
+		</div>
+		<div style="margin:0 auto; width:1560px; height: 390px;"><img src="切图/images/最后_02.gif" alt=""></div>
+	</div>
+</body>
+</html>
